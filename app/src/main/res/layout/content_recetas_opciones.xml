@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RecetasOpciones"
+    tools:showIn="@layout/activity_recetas_opciones">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-black"
+            android:paddingBottom="25dp"
+            android:text='"Comer de la mejor manera puede ayudar a tener un equilibrio entre ficico y mental mente,
+            más sostenible y más bueno. En la actualidad
+             tenemos claro que estos tres conceptos van
+             unidos."'
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imgPlatoSaludable"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/imo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btnDesayuno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desayuno" />
+
+            <Button
+                android:id="@+id/btnComida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comida" />
+
+            <Button
+                android:id="@+id/btnCena"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cena" />
+        </LinearLayout>
+
+        <include layout="@layout/btn_volver" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
