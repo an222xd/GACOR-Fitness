@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:background="#FFE3D1"
             android:gravity="center"
-            android:text="Jose Antonio Garcia Mtz."
+            android:text="GACOR Fitness"
             android:textColor="#AFAA"
             android:textSize="30sp"
             app:fontFamily="sans-serif-black" />
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:background="#FFE3D1"
             android:gravity="center"
-            android:text="Obecidad"
+            android:text="Nutricion"
             android:textColor="#AFAA"
             android:textSize="30sp"
             app:fontFamily="sans-serif-black" />
